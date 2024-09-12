@@ -1,0 +1,27 @@
+ [
+    {
+      "id": 1,
+     " type": "line",
+      "points": "[50, 60, 100, 120, 150, 160]",
+      "stroke": "black",
+      "strokeWidth": 2
+    },
+    {
+     " id": 2,
+     " type": "shape",
+      "shapeType": "rectangle",
+      "x": 200,
+     " y": 150,
+      "width": 100,
+     " height": 50,
+     " fill": "red"
+    },
+    {
+     " id": 3,
+     " type": "text",
+      "text": "Hello World",
+     " x": 300,
+     " y": 200,
+     " fontSize": 20
+    }
+  ]

@@ -6,6 +6,8 @@ import {
 import MainRoute from "../MainRoute/MainRoute";
 import Error from "../ErrorPage/Error";
 import Home from "../HomePage/Home";
+import DrawingsList from "../DraingList/DrawingList";
+import DrawingPage from "../DrawingPage/DrawingPage";
  
   
   const router = createBrowserRouter([
@@ -17,7 +19,15 @@ import Home from "../HomePage/Home";
         {
             path:'/',
             element:<Home></Home>
-        }
+        },
+        {
+          path:'/',
+          element:<DrawingsList></DrawingsList>
+        },
+        {
+          path:'/drawing/:id',
+          element:<DrawingPage></DrawingPage>
+        },
       ]
     },
   ]);
